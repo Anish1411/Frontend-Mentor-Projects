@@ -1,0 +1,116 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    
+}
+.main{
+    border-radius: 15px;
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 13vh;
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.img img{
+    width: 330px;
+    border-radius: 15px 15px 0 0;
+}
+
+.order{
+    text-align: center;
+}
+.order h1{
+    color: hsl(223, 47%, 23%);
+    font-size: 25px;
+    margin-block-end: 0;
+}
+
+.order p{
+    font-size: 16px;
+    padding: 0px 19px 0px 19px;
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+}
+
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    margin: 0px 30px 0px 30px;
+    border-radius: 15px;
+    display: flex;
+    padding: 15px;
+
+}
+
+.year{
+    margin: 0;
+    padding: 0;
+    flex-grow: 2;
+    margin-left: 10px;
+    align-self: center;
+}
+.year p{
+   margin: 0;
+   padding: 0;
+   color: hsl(223, 47%, 23%);
+   font-size: 14px;
+   }
+
+.year .annual{
+    font-weight: bold;
+   }
+.year .price{
+    color: hsl(224, 23%, 55%);
+    margin-top: 3px;
+
+}
+
+.plan img{
+    width: 40px;
+}
+
+.plan a{
+    margin-top: 7px;
+    font-size: 14px;
+    color: hsl(223, 100%, 35%);
+    font-weight: 700;
+}
+
+.plan a:hover{
+    color: hsl(249, 67%, 60%);
+    text-decoration: none;
+}
+
+.payment{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.payment button{
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  padding: 13px 75px;
+  border-radius: 10px;
+  margin: 10px;
+  color: white;
+  box-shadow: 0px 10px 20px 0px hsl(224, 23%, 55%);
+
+}
+
+.payment button:hover{
+    cursor: pointer;
+    background-color: hsl(249, 67%, 60%);
+  
+  }
+  
+.paymet-p2{
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.paymet-p2:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
