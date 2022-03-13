@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card{
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first{
+    width: 25%;
+    height: 100%;
+    padding: 40px;
+}
+.left , .btn-1:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.mid , .btn-2:hover{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.right , .btn-3:hover{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.car{
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 30px 0;
+    font-size: 30px;
+    color: hsl(0, 0%, 95%);
+}
+
+.para{
+    margin: 0 0 30px 0;
+   color: hsla(0, 0%, 100%, 0.75);
+   font-size: 16px;
+}
+
+.learn{
+    margin-top: 50px;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    border-style: none;
+    background-color:hsl(0, 0%, 95%);
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid hsl(0, 0%, 95%);
+}
+.learn:hover{
+    color: hsl(0, 0%, 95%);
+    border-style: solid ;
+
+}
+
+.btn-1{
+    color: hsl(31, 77%, 52%);
+}
+.btn-2{
+    color: hsl(184, 100%, 22%);
+}
+.btn-3{
+    color: hsl(179, 100%, 13%);
+}
+
+/* media queries */
+
+@media screen and (min-width:700px) and (max-width: 861px) {
+    .car{
+        font-size: 25px;
+    }
+    .para{
+        font-size: 13px;
+    }
+    .learn{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width: 700px) {
+    .card-container{
+        margin: 10px 0;
+    }
+    .card{
+        flex-direction: column;
+        padding: 0;
+    }
+    .first{
+        width: 80%;
+        padding: 20px;
+    }
+      .car{
+        font-size: 23px;
+        margin: 15px 0;;
+    } 
+    .para{
+        font-size: 14px;
+    }
+    .learn{
+        font-size: 13px;
+        margin-top: 0;
+    } 
+}
+
+@media screen and (max-width:500px) {
+    .card-container{
+        margin: 20px 0;
+
+    }
+    .card{
+        flex-direction: column;
+        padding: 0;
+    }
+    .first{
+        width: 80%;
+        padding: 20px;
+    }
+      .car{
+        font-size: 18px;
+        margin: 10px 0;;
+    } 
+    .para{
+        font-size: 12px;
+    }
+    .learn{
+        font-size: 11px;
+        margin-top: 0;
+    } 
+}
